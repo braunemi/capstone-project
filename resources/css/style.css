@@ -48,3 +48,19 @@ header a {
   font-family: 'Open Sans', sans-serif;
   text-decoration: none;
 }
+
+/* 1st Section */
+#first-section {
+  display: flex;
+  justify-content: flex-start;
+}
+#first-section .container {
+  margin-left: 1.5rem;
+}
+#first-section .image {
+  width: 60%;
+  height: auto;
+}
+#first-section img {
+  max-width: 100%;
+}
