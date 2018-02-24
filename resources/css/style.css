@@ -184,3 +184,46 @@ header a {
 #info-section h2, #info-section h3, #info-section p {
   margin: 0;
 }
+
+/* Course Section */
+#course-section h2, #course-section h3, #course-section p {
+  margin: 0;
+}
+#course-section {
+  background-color: rgb(220,220,220);
+  width: 100%;
+  padding: 2rem 4.5rem;
+  display: flex;
+  flex-direction: column;
+}
+#course-section .header {
+  color: rgb(64,64,64);
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  justify-content: center;
+}
+#course-section .courses-container {
+  color: rgb(64,64,64);
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+}
+#course-section .course-box{
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#course-section .course-box img {
+  max-width: 100%;
+  height: auto;
+}
+#course-section .course-box h3 {
+  font-weight: 500;
+  margin-bottom: .5rem;
+}
+#course-section .course-box .courses-title,
+#course-section .course-box .courses-description {
+  font-size: .875rem;
+  font-weight: 300;
+  margin-bottom: .5rem;
+}
