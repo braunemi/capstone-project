@@ -119,10 +119,23 @@ header a {
   display: flex;
   flex-direction: column;
 }
+#info-section .left-container h2 {
+  margin-bottom: 1.5rem;
+}
+#info-section .left-container p {
+  font-weight: 100;
+  line-height: 1.25;
+  margin-bottom: 2rem;
+}
+#info-section .left-container .author {
+  font-size: .825rem;
+}
 #info-section .right-container {
-  border-left: .1rem solid rgb(220,220,220);
+  border-left: .05rem solid rgb(220,220,220);
   width: 40%;
-  padding-top: 2rem;
+  height: auto;
+  padding: 0 .1rem;
+  padding-top: 1rem;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -131,8 +144,17 @@ header a {
   display: flex;
   align-items: center;
 }
+#info-section .right-container #info-box-one {
+  border-bottom: .25rem double rgb(220,220,220);
+  margin-bottom:.5rem;
+}
+#info-section .right-container #info-box-three {
+  background-color: rgb(220,220,220);
+}
 #info-section .right-container .image {
   width: 35%;
+  margin: 1rem;
+
 }
 #info-section .right-container img {
   max-width: 100%;
@@ -143,6 +165,21 @@ header a {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+#info-section .right-container .text h3 {
+  font-weight: 500;
+  margin-bottom: .5rem;
+}
+#info-section .right-container .text p {
+  font-size: .875rem;
+  font-weight: 300;
+  margin-bottom: .5rem;
+}
+#info-section .right-container .text a {
+  color: rgb(50,140,250);
+  font-size: .875rem;
+  font-weight: 300;
+  text-decoration: none;
 }
 #info-section h2, #info-section h3, #info-section p {
   margin: 0;
