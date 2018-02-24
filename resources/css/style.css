@@ -212,10 +212,6 @@ header a {
   margin: 0px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-}
-#course-section .course-box .container {
-  width: auto;
 }
 #course-section .course-box img {
   max-width: 100%;
