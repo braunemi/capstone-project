@@ -5,6 +5,9 @@ html {
 body {
   margin: 0;
 }
+h2,h3,p {
+  margin:0;
+}
 
 /* Header */
 header {
@@ -181,14 +184,8 @@ header a {
   font-weight: 300;
   text-decoration: none;
 }
-#info-section h2, #info-section h3, #info-section p {
-  margin: 0;
-}
 
 /* Course Section */
-#course-section h2, #course-section h3, #course-section p {
-  margin: 0;
-}
 #course-section {
   background-color: rgb(220,220,220);
   padding: 2rem 4.5rem;
@@ -225,9 +222,15 @@ header a {
 #course-section .courses-container .business {
   margin-right: 1rem;
 }
+#course-section .course-box .image {
+  margin-bottom: .5rem;
+}
 #course-section .course-box img {
   max-width: 100%;
   height: auto;
+}
+#course-section .course-box .text {
+  padding-left: .5rem;
 }
 #course-section .course-box h3 {
   font-weight: 500;
