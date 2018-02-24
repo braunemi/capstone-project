@@ -3,14 +3,23 @@ html {
 }
 
 body {
+  background-color: rgb(245,245,245);
   margin: 0;
 }
 h2,h3,p {
   margin:0;
 }
+h3 {
+  font-weight: 500;
+}
+p {
+  font-size: .875rem;
+  font-weight: 300;
+}
 
 /* Header */
 header {
+  background-color: white;
   height: 4rem;
   display: flex;
   align-items: center;
@@ -170,12 +179,9 @@ header a {
   justify-content: center;
 }
 #info-section .right-container .text h3 {
-  font-weight: 500;
   margin-bottom: .5rem;
 }
 #info-section .right-container .text p {
-  font-size: .875rem;
-  font-weight: 300;
   margin-bottom: .5rem;
 }
 #info-section .right-container .text a {
@@ -233,12 +239,98 @@ header a {
   padding-left: .5rem;
 }
 #course-section .course-box h3 {
-  font-weight: 500;
   margin-bottom: .5rem;
 }
-#course-section .course-box .courses-title,
-#course-section .course-box .courses-description {
-  font-size: .875rem;
-  font-weight: 300;
+#course-section .course-box p {
   margin-bottom: .5rem;
+}
+
+/* Thesis Section */
+#thesis-section {
+  border-bottom: .05rem solid rgb(220,220,220);
+  display: flex;
+  flex-direction: column;
+}
+#thesis-section .header {
+  color: rgb(64,64,64);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin: 2rem 0;
+  display: flex;
+  justify-content: center;
+}
+#thesis-section .thesis-container {
+  color: rgb(64,64,64);
+  font-family: 'Open Sans', sans-serif;
+  width: 100%;
+  margin-bottom: 2rem;
+  display: flex;
+}
+#thesis-section .left-container {
+  width: 60%;
+  margin-left: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+#thesis-section .left-container .video {
+  max-width: 100%;
+  height: auto;
+  padding-bottom: 1.5rem;
+}
+#thesis-section .left-container .text {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+#thesis-section .left-container .text h3 {
+  margin-bottom: .5rem;
+}
+#thesis-section .left-container .text p {
+  font-weight: 100;
+  line-height: 1.25;
+}
+#thesis-section .right-container {
+  width: 40%;
+  margin-left: 2rem;
+  margin-right: .1rem;
+  display: flex;
+  flex-direction: column;
+}
+#thesis-section .right-container .news-box {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+#thesis-section .right-container .fisma {
+  background-color: rgb(220,220,220);
+}
+#thesis-section .right-container .image {
+  width: 35%;
+  margin: 1rem;
+}
+#thesis-section .right-container img {
+  max-width: 100%;
+  height: auto;
+}
+#thesis-section .right-container .text {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#thesis-section .right-container .text h3 {
+  margin-bottom: .5rem;
+}
+
+/* Footer */
+footer {
+  color: rgb(64,64,64);
+  font-family: 'Open Sans', sans-serif;
+  height: 4rem;
+  margin: 0 1.5rem;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
 }
