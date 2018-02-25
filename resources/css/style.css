@@ -210,15 +210,15 @@ header .mobile {
   flex-direction: column;
   justify-content: flex-start;
 }
-#info-section .right-container .info-box {
+#info-section .right-container .info {
   display: flex;
   align-items: center;
 }
-#info-section .right-container #info-box-one {
+#info-section .right-container .box-one {
   border-bottom: .25rem double rgb(220,220,220);
   margin-bottom:.5rem;
 }
-#info-section .right-container #info-box-three {
+#info-section .right-container .box-three {
   background-color: rgb(220,220,220);
 }
 #info-section .right-container .desktop-image {
@@ -255,22 +255,41 @@ header .mobile {
   #info-section .left-container, #info-section .right-container .desktop-image {
     display: none;
   }
+  #info-section .right-container .box-one {
+    border: none;
+  }
   #info-section .right-container {
+    border: none;
     width: 100%;
   }
-  #info-section .right-container .info-box {
+  #info-section .right-container .info {
+    margin-bottom: 4rem;
     flex-direction: column;
   }
   #info-section .right-container .mobile-image {
     width: 80%;
+    margin-bottom: 1.5rem;
     display: block;
   }
   #info-section .right-container img {
     max-width: 100%;
     height: auto;
   }
-  #info-section .right-container #info-box-three {
+  #info-section .right-container .box-three {
     background-color: rgb(245,245,245);
+  }
+  #info-section .right-container .text {
+    width: 80%;
+    padding-left: 1rem;
+  }
+  #info-section .right-container .text h3 {
+    font-size: 1.5rem;
+  }
+  #info-section .right-container .text p {
+    font-size: 1rem;
+  }
+  #info-section .right-container .text a {
+    font-size: .95rem;
   }
 }
 /* Course Section */
