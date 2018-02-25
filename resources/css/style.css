@@ -32,7 +32,7 @@ header .logo-name {
   align-items: center;
   justify-content: space-around;
 }
-header nav {
+header .desktop {
   margin-right: .5rem;
 }
 header .title {
@@ -60,7 +60,33 @@ header a {
   font-family: 'Open Sans', sans-serif;
   text-decoration: none;
 }
+header .mobile {
+  display: none;
+}
 
+@media only screen and (max-width: 480px) {
+  header .desktop, header h2 {
+    display: none;
+  }
+  header ul, header li {
+    margin: 0;
+    padding: 0;
+  }
+  header .mobile {
+    width: 100%;
+    display: flex;
+  }
+  header .mobile ul {
+    width: 100%;
+  }
+  header .mobile li {
+    display: flex;
+    justify-content: space-around;
+  }
+  header .mobile a {
+    display: flex;
+  }
+}
 /* 1st Section */
 #banner-section {
   background-color: rgb(220,220,220);
@@ -106,6 +132,38 @@ header a {
   background-color: rgb(64,64,64);
   text-align: center;
   font-weight: 300;
+}
+
+@media only screen and (max-width:480px) {
+  #banner-section {
+    flex-direction: column;
+  }
+  #banner-section .image {
+    width: 100%;
+    margin: 0;
+  }
+  #banner-section .text {
+    margin: 0;
+    width: 100%;
+    align-items: center;
+  }
+  #banner-section h1, #banner-section h2, #banner-section .button {
+    margin: 0;
+  }
+  #banner-section h1 {
+    line-height: 1.5;
+    margin: 2rem 0;
+  }
+  #banner-section h2 {
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+  }
+  #banner-section .button {
+    color: white;
+    font-weight: 500;
+    background-color: rgb(169,169,169);
+    margin-bottom: 2rem;
+  }
 }
 
 /* Information Section */
